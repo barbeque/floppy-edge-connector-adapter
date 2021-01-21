@@ -1,0 +1,4 @@
+- [ ] Is the pin header around the right way so that the connector fits a Gotek properly? Should just be identical to the way the existing one is
+- [ ] Label which side of the board the connector goes to
+- [ ] Print out a sample board and compare to the real edge connector
+- [ ] Price at JLCPCB
