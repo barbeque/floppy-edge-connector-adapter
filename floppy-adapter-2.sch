@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even J?
+L Connector_Generic:Conn_02x17_Odd_Even J2
 U 1 1 6007ADE3
 P 4025 4075
-F 0 "J?" H 4075 5092 50  0000 C CNN
+F 0 "J2" H 4075 5092 50  0000 C CNN
 F 1 "Edge Connector" H 4075 5001 50  0000 C CNN
 F 2 "EdgeConnectors:FloppyEdge" H 4025 4075 50  0001 C CNN
 F 3 "~" H 4025 4075 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 4025 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even J?
+L Connector_Generic:Conn_02x17_Odd_Even J1
 U 1 1 6007DE1B
 P 2825 4075
-F 0 "J?" H 2875 5092 50  0000 C CNN
+F 0 "J1" H 2875 5092 50  0000 C CNN
 F 1 "Female Floppy Connector" H 2875 5001 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical" H 2825 4075 50  0001 C CNN
 F 3 "~" H 2825 4075 50  0001 C CNN
