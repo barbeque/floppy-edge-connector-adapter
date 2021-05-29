@@ -22,3 +22,4 @@ You can get the gerber files from [the releases page](https://github.com/barbequ
  - NEC PC-8801mkII
  - NEC PC-8801mkIISR
  - Sharp X1turbo
+ - Sharp X1 Twin
