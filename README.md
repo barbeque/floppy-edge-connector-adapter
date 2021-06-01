@@ -10,6 +10,8 @@ This project was developed as part of a [leaded solder](https://www.leadedsolder
 # Gerber files
 You can get the gerber files from [the releases page](https://github.com/barbeque/floppy-edge-connector-adapter/releases/). My usual fabs are JLCPCB, PCBWay and Osh Park.
 
+You can also [order it directly from the project page on PCBWay](https://www.pcbway.com/project/shareproject/5_25__Floppy_edge_connector_to_34_pin_3_5__floppy_drive_adapter.html), which gives me some PCBWay credit that I can use on future custom board projects.
+
 # Bill of Materials
  * 34-pin female IDC right-angle header (0.100") such as [S9207-ND](https://www.digikey.ca/product-detail/en/sullins-connector-solutions/SFH11-PBPC-D17-RA-BK/S9207-ND/1990100) on DigiKey.
 
