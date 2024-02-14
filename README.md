@@ -1,15 +1,20 @@
 # Floppy Adapter v3
 This adapter is intended to allow older computers equipped with 5.25" floppy drives using an edge connector to use a 3.5" floppy drive.
 
-![The floppy adapter board, with HASL coating and no bevel.](images/first-rev.jpg)
+![The floppy adapter board (v3.5), with HASL coating and no bevel.](images/version-3.5.jpg)
 
 For long-term reliability, especially in humid environments or when the adapter is expected to be plugged and unplugged often, it's recommended that you pay extra at fabrication time to get hard gold fingers and a bevel. You can bevel it yourself with sandpaper, if needed.
 
 This project was developed as part of a [leaded solder](https://www.leadedsolder.com/) repair of a Sharp X1turbo, and based on an older board developed for a conversion of a NEC PC-8801mkII.
 
 # Version History
-## v3.5 (2023)
-Add "drive select" breakout pins on the top. This was done to enable a single HxC to emulate two drives on the NEC PC-8801.
+## v3.5 (2022)
+Add "drive select" breakout pins on the top. This was done to enable a single HxC to emulate two drives on the NEC PC-8801. Thanks to Frio for requesting and co-operating with the development of this version of the adapter.
+
+## v3.0 (2021)
+![The floppy adapter board, with HASL coating and no bevel.](images/first-rev.jpg)
+
+Original release of this board, fixing mounting issues from previous releases.
 
 # Gerber files
 You can get the gerber files from [the releases page](https://github.com/barbeque/floppy-edge-connector-adapter/releases/). My usual fabs are JLCPCB, PCBWay and Osh Park.
