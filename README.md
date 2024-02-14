@@ -7,6 +7,10 @@ For long-term reliability, especially in humid environments or when the adapter 
 
 This project was developed as part of a [leaded solder](https://www.leadedsolder.com/) repair of a Sharp X1turbo, and based on an older board developed for a conversion of a NEC PC-8801mkII.
 
+# Version History
+## v3.5 (2023)
+Add "drive select" breakout pins on the top. This was done to enable a single HxC to emulate two drives on the NEC PC-8801.
+
 # Gerber files
 You can get the gerber files from [the releases page](https://github.com/barbeque/floppy-edge-connector-adapter/releases/). My usual fabs are JLCPCB, PCBWay and Osh Park.
 
@@ -19,6 +23,16 @@ You can also [order it directly from the project page on PCBWay](https://www.pcb
  1. Solder the right-angle IDC connector to the board, such that the plastic part of the connector is on the side of the board reading "mount connector this side."
  2. Install adapter into your ribbon cable. If there is no key "tab" on your computer's connector, check for a red wire on the ribbon cable or a triangle marking on the ribbon cable connector in order to know which pin is "1."
  3. Attach drive to adapter, minding the tab on the right-angle IDC connector to get it the right way around.
+
+# HxC Dual Drive support on PC-8801
+A single HxC floppy emulator can emulate two floppy drives at once. This usually "just works," but on the PC-8801 you must wire it a special way using two adapters.
+
+ 1. Solder one adapter fully with a right-angle connector as per the previous instructions.
+ 2. Solder a DuPont jumper wire onto the "Drive Select 0" (DS0) pad of the second adapter.
+ 3. Install one adapter into each floppy cable on the PC-8801.
+ 4. Connect the fully-populated adapter to the HxC, and run the jumper wire from the other into the "DS1" select line on the back of the HxC.
+
+For more guidance, please consult [the HxC forum thread for running two drives on a PC-8801.](https://torlus.com/floppy/forum/viewtopic.php?t=502)
 
 # Tested on
  - NEC PC-8801mkII
