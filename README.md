@@ -32,6 +32,10 @@ You can also [order it directly from the project page on PCBWay](https://www.pcb
 # HxC Dual Drive support on PC-8801
 A single HxC floppy emulator can emulate two floppy drives at once. This usually "just works," but on the PC-8801 you must wire it a special way using two adapters.
 
+The PC-88 has two separate floppy cables instead of one "bussed" cable. Although most signals are bussed together to the floppy drive, each cable has its own independent drive select signal. Both of those selects are on drive select 0 (DS0) which means that we must put a partially-populated adapter into one of the drives in order to provide "its" DS0 to the HxC as drive select 1 (DS1.)
+
+![The dual drive emulation configuration for PC-8801](images/dual-hxc-configuration-pc88.png)
+
  1. Solder one adapter fully with a right-angle connector as per the previous instructions.
  2. Solder a DuPont jumper wire onto the "Drive Select 0" (DS0) pad of the second adapter.
  3. Install one adapter into each floppy cable on the PC-8801.
