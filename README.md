@@ -48,5 +48,6 @@ For more guidance, please consult [the HxC forum thread for running two drives o
 # Tested on
  - NEC PC-8801mkII
  - NEC PC-8801mkIISR
+ - Sanyo MBC-555
  - Sharp X1turbo
  - Sharp X1 Twin
