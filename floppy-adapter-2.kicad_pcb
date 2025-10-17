@@ -1677,34 +1677,34 @@
 		(uuid "00000000-0000-0000-0000-00006008c89b")
 	)
 	(gr_line
-		(start 144.653 73.5965)
+		(start 145.7198 73.5965)
+		(end 183.1975 73.5965)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "875dec1e-9ce2-4fd3-bff9-da9a750414d5")
+	)
+	(gr_line
+		(start 189.23 73.5965)
+		(end 184.658 73.5965)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "87b14dc5-bcbb-4b88-a610-915bd43e9db3")
+	)
+	(gr_line
+		(start 144.6403 74.676)
 		(end 144.653 101.6)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "02f8ad66-4f35-401c-b9e6-7d3cd95c9d2d")
-	)
-	(gr_line
-		(start 190.3095 73.5965)
-		(end 190.3095 101.6)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3a232053-6d6a-4f71-8ed3-1d74fcd866d5")
-	)
-	(gr_line
-		(start 184.658 73.5965)
-		(end 190.3095 73.5965)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9ee95c34-dbee-486a-9bc8-b9ffbf032bf5")
+		(uuid "97796244-f775-458e-819f-002e2f558cd2")
 	)
 	(gr_line
 		(start 184.658 73.5965)
@@ -1716,15 +1716,37 @@
 		(layer "Edge.Cuts")
 		(uuid "a6136d96-d291-40c6-a32b-00f7232edf4d")
 	)
-	(gr_line
-		(start 183.1975 73.5965)
-		(end 144.653 73.5965)
+	(gr_arc
+		(start 144.6403 74.676)
+		(mid 144.956478 73.912678)
+		(end 145.7198 73.5965)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b6825cdc-549f-4d62-ab2d-1ad3ad5cb5cf")
+		(uuid "b6e830d6-97bc-4924-bc8c-1c85d9ba0cc3")
+	)
+	(gr_arc
+		(start 189.23 73.5965)
+		(mid 189.993322 73.912678)
+		(end 190.3095 74.676)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d1e754dd-7e9b-4b19-aa5c-50b7da00d4c7")
+	)
+	(gr_line
+		(start 190.3095 74.676)
+		(end 190.3095 101.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d7699d5b-09db-491a-9f7b-42164c9b157c")
 	)
 	(gr_line
 		(start 184.658 85.979)
