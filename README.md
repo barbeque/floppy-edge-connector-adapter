@@ -8,6 +8,9 @@ For long-term reliability, especially in humid environments or when the adapter 
 This project was developed as part of a [leaded solder](https://www.leadedsolder.com/) repair of a Sharp X1turbo, and based on an older board developed for a conversion of a NEC PC-8801mkII.
 
 # Version History
+## v3.6 (2025)
+Move the silkscreen for the female floppy-drive connector to match the label on the bottom of the board. The label was being ignored by assembly houses and this should help correct this behaviour.
+
 ## v3.5 (2022)
 Add "drive select" breakout pins on the top. This was done to enable a single HxC to emulate two drives on the NEC PC-8801. Thanks to Frio for requesting and co-operating with the development of this version of the adapter.
 
